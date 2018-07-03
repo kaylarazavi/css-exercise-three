@@ -1,3 +1,9 @@
+@import url("https://use.fontawesome.com/37471687aa.js");
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #333;
   font-family: sans-serif;
@@ -7,15 +13,62 @@ body {
 .container {
   margin: 0 auto;
   width: 420px;
+  height: 10%;
+  padding-bottom: 1%;
+  background: #DEDEDE;
 }
 
 nav {
   margin: 0 auto;
   padding: 10px 0 15px 15px;
-  position: fixed;
   width: 420px;
+  background: black;
+  position: fixed;
+}
+
+.fa-chevron-left.fa-inverse.fa-2x {
+  padding-left: 2%;
+  padding-top: 2%;
 }
 
 .restaurant-list {
   padding-top: 50px;
+  margin: auto;
+  margin: 6%;
+}
+
+.location {
+  border-bottom: 1px solid black;
+  padding: 1%;
+}
+
+.content {
+  display: inline-block;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+
+.content:hover {
+
+}
+
+.fa-chevron-right {
+  display: inline-block;
+  float: right;
+  width: 10%
+}
+
+h1, h3 {
+  padding-left: 1%;
+  line-height: 1;
+}
+
+.content h1 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.content h3{
+  font-size: 14px;
+  font-weight: normal;
 }
