@@ -8,6 +8,7 @@ body {
   background-color: #333;
   font-family: sans-serif;
   font-size: 10px;
+  padding-left: 7%;
 }
 
 .container {
@@ -26,7 +27,6 @@ nav {
 }
 
 .fa-chevron-left.fa-inverse.fa-2x {
-  padding-left: 2%;
   padding-top: 2%;
 }
 
@@ -48,8 +48,8 @@ nav {
   padding-left: 5%;
 }
 
-.content:hover {
-
+.location:hover {
+  background-color: gray;
 }
 
 .arrow {
@@ -58,7 +58,6 @@ nav {
 }
 
 h1, h3 {
-  padding-left: 4%;
   line-height: 1.3em;
 }
 
